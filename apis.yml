@@ -1,4 +1,16 @@
 aid: skew
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/skew.png
 name: Skew
 description: Skew is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -10,8 +22,14 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-status: defunct
+x-status-note: 'Live probe 2026-07-21: skew.com serves only a MarkMonitor brand-protection
+  parking page over plain HTTP (HTTPS times out), /.well-known/security.txt is 404,
+  and api./docs./developer.skew.com do not resolve (NXDOMAIN). Skew was a Seedcamp-backed
+  crypto-derivatives analytics startup acquired by Coinbase in 2021 and wound down;
+  the domain is now held under Coinbase/MarkMonitor brand protection. No live public API surface.'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 apis: []
@@ -23,3 +41,8 @@ maintainers:
 common:
 - type: Website
   url: http://skew.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
