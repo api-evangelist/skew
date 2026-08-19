@@ -21,7 +21,7 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 x-status: defunct
 x-status-note: 'Live probe 2026-07-21: skew.com serves only a MarkMonitor brand-protection
   parking page over plain HTTP (HTTPS times out), /.well-known/security.txt is 404,
