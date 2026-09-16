@@ -34,15 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 x-status: defunct
-x-status-note: 'Live probe 2026-07-21: skew.com serves only a MarkMonitor brand-protection
-  parking page over plain HTTP (HTTPS times out), /.well-known/security.txt is 404,
-  and api./docs./developer.skew.com do not resolve (NXDOMAIN). Skew was a Seedcamp-backed
-  crypto-derivatives analytics startup acquired by Coinbase in 2021 and wound down;
-  the domain is now held under Coinbase/MarkMonitor brand protection. No live public API surface.'
+x-status-note: 'Live probe 2026-07-21: skew.com serves only a MarkMonitor brand-protection parking page
+  over plain HTTP (HTTPS times out), /.well-known/security.txt is 404, and api./docs./developer.skew.com
+  do not resolve (NXDOMAIN). Skew was a Seedcamp-backed crypto-derivatives analytics startup acquired
+  by Coinbase in 2021 and wound down; the domain is now held under Coinbase/MarkMonitor brand protection.
+  No live public API surface.'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
